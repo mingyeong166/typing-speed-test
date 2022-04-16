@@ -12,13 +12,13 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #17a2b8;
+    background: #F1EADD;
 }
 
 .wrapper{
     width: 770px;
     padding: 35px;
-    background: #fff;
+    background: #FBF9F5;
     border-radius: 10px;
 }
 
@@ -45,7 +45,7 @@ body{
 
 .typing-text p{
     font-size: 21px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 1px ;
     word-break: break-all;
 }
@@ -66,7 +66,7 @@ body{
 }
 
 .typing-text p span.active{
-    color: #17A2B8;
+    color: chocolate;
 }
 .typing-text p span.active::before{
     position: absolute;
@@ -77,7 +77,7 @@ body{
     left: 0;
     opacity: 0;
     border-radius: 5px;
-    background: #17A2B8;
+    background: chocolate;
     animation: blink 1s ease-in-out infinite;
 }
 @keyframes blink{
@@ -85,7 +85,6 @@ body{
         opacity: 1; 
     }
 }
-
 
 .content-box .content{
     display: flex;
@@ -100,12 +99,12 @@ body{
     border: none;
     outline: none;
     width: 105px;
-    color: #fff;
     padding: 8px 0;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    background: #17A2B8;
+    border: 1px solid #ccc;
+    background: #EFEFEF;
     transition: transform 0.3s ease;
 }
 
